@@ -1,0 +1,198 @@
+IQ-TREE 1.6.12 built Mar 16 2020
+
+Input file name: results/aligned-delim.fasta
+Type of analysis: tree reconstruction
+Random seed number: 693344
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 57 sequences with 5000 nucleotide sites
+Number of constant sites: 4945 (= 98.9% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4945 (= 98.9% of all sites)
+Number of parsimony informative sites: 26
+Number of distinct site patterns: 59
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 0.9077
+  A-G: 0.4606
+  A-T: 0.9845
+  C-G: 1.1165
+  C-T: 0.5399
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2521
+  pi(C) = 0.2493
+  pi(G) = 0.2459
+  pi(T) = 0.2527
+
+Rate matrix Q:
+
+  A   -0.9401    0.3616     0.181    0.3975
+  C    0.3656    -1.022    0.4388     0.218
+  G    0.1855    0.4448    -1.034    0.4038
+  T    0.3965    0.2151     0.393    -1.005
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7513.0688 (s.e. 70.6179)
+Unconstrained log-likelihood (without tree): -7378.1430
+Number of free parameters (#branches + #model parameters): 119
+Akaike information criterion (AIC) score: 15264.1375
+Corrected Akaike information criterion (AICc) score: 15269.9900
+Bayesian information criterion (BIC) score: 16039.6835
+
+Total tree length (sum of branch lengths): 0.0111
+Sum of internal branch lengths: 0.0050 (45.3267% of tree length)
+
+WARNING: 29 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Strain_0' is drawn at root
+
++**Strain_0
+|
+|                   +**Strain_9
+|     +-------------|
+|     |             |                +**Strain_30
+|     |             |             +**|
+|     |             |             |  +-------------Strain_52
+|     |             +-------------|
+|     |                           +-------------Strain_51
+|  +**|
+|  |  |                      +**Strain_1
+|  |  |                   +**|
+|  |  |                   |  |                +**Strain_7
+|  |  |                   |  |  +-------------|
+|  |  |                   |  |  |             +-------------Strain_21
+|  |  |                   |  +**|
+|  |  |                   |     +-------------Strain_10
+|  |  |     +-------------|
+|  |  |     |             |                +**Strain_6
+|  |  |     |             |             +**|
+|  |  |     |             |             |  +-------------Strain_27
+|  |  |     |             +-------------|
+|  |  |     |                           |             +**Strain_29
+|  |  |     |                           +-------------|
+|  |  |     |                                         +-------------Strain_45
+|  |  |  +**|
+|  |  |  |  |             +**Strain_4
+|  |  |  |  +-------------|
+|  |  |  |                |                +**Strain_16
+|  |  |  |                |  +-------------|
+|  |  |  |                |  |             |             +**Strain_28
+|  |  |  |                |  |             +-------------|
+|  |  |  |                |  |                           +-------------Strain_48
+|  |  |  |                +**|
+|  |  |  |                   +-------------Strain_19
+|  |  +**|
+|  |     |                   +**Strain_8
+|  |     |     +-------------|
+|  |     |     |             |                +**Strain_23
+|  |     |     |             |             +**|
+|  |     |     |             |             |  +-------------Strain_44
+|  |     |     |             +-------------|
+|  |     |     |                           +-------------Strain_37
+|  |     |  +**|
+|  |     |  |  |                +**Strain_12
+|  |     |  |  |             +**|
+|  |     |  |  |             |  |  +-------------Strain_32
+|  |     |  |  |             |  +**|
+|  |     |  |  |             |     +-------------Strain_39
+|  |     |  |  +-------------|
+|  |     |  |                |             +**Strain_34
+|  |     |  |                +-------------|
+|  |     |  |                              |  +-------------Strain_54
+|  |     |  |                              +**|
+|  |     |  |                                 +-------------Strain_55
+|  |     +**|
+|  |        |                      +**Strain_3
+|  |        |                   +**|
+|  |        |                   |  |             +**Strain_15
+|  |        |                   |  +-------------|
+|  |        |                   |                |             +**Strain_35
+|  |        |                   |                +-------------|
+|  |        |                   |                              |  +-------------Strain_49
+|  |        |                   |                              +**|
+|  |        |                   |                                 +-------------Strain_50
+|  |        |     +-------------|
+|  |        |     |             |                +**Strain_17
+|  |        |     |             |             +**|
+|  |        |     |             |             |  +-------------Strain_41
+|  |        |     |             +-------------|
+|  |        |     |                           +-------------Strain_43
+|  |        |  +**|
+|  |        |  |  |             +**Strain_2
+|  |        |  |  +-------------|
+|  |        |  |                |                   +**Strain_13
+|  |        |  |                |                +**|
+|  |        |  |                |                |  |  +-------------Strain_31
+|  |        |  |                |                |  +**|
+|  |        |  |                |                |     +-------------Strain_40
+|  |        |  |                |  +-------------|
+|  |        |  |                |  |             |             +**Strain_26
+|  |        |  |                |  |             +-------------|
+|  |        |  |                |  |                           |             +**Strain_53
+|  |        |  |                |  |                           +*************|
+|  |        |  |                |  |                                         +**Outgroup
+|  |        |  |                +**|
+|  |        |  |                   |             +**Strain_24
+|  |        |  |                   +-------------|
+|  |        |  |                                 +-------------Strain_36
+|  |        +**|
+|  |           |                +**Strain_5
+|  |           |             +**|
+|  |           |             |  |                   +**Strain_22
+|  |           |             |  |                +**|
+|  |           |             |  |                |  |  +-------------Strain_46
+|  |           |             |  |                |  +**|
+|  |           |             |  |                |     +-------------Strain_38
+|  |           |             |  |  +-------------|
+|  |           |             |  |  |             +-------------Strain_42
+|  |           |             |  +**|
+|  |           |             |     +-------------Strain_20
+|  |           +-------------|
+|  |                         |             +**Strain_25
+|  |                         +-------------|
+|  |                                       +-------------Strain_47
++**|
+|  |  +-------------Strain_11
+|  +**|
+|     +-------------Strain_18
+|
+|             +**Strain_14
++-------------|
+              +-------------Strain_33
+
+Tree in newick format:
+
+(Strain_0:0.0000025549,(((Strain_9:0.0000025549,((Strain_30:0.0000025549,Strain_52:0.0002000500):0.0000010000,Strain_51:0.0002000500):0.0002002100):0.0002001300,((((Strain_1:0.0000025549,((Strain_7:0.0000025549,Strain_21:0.0002001200):0.0002001900,Strain_10:0.0002000700):0.0000010000):0.0000010000,((Strain_6:0.0000025549,Strain_27:0.0002000500):0.0000010000,(Strain_29:0.0000025549,Strain_45:0.0002001400):0.0002001900):0.0002001900):0.0002001200,(Strain_4:0.0000025549,((Strain_16:0.0000025549,(Strain_28:0.0000025549,Strain_48:0.0002001500):0.0002002800):0.0002001800,Strain_19:0.0002000500):0.0000010000):0.0002001300):0.0000010000,(((Strain_8:0.0000025549,((Strain_23:0.0000025549,Strain_44:0.0002000500):0.0000010000,Strain_37:0.0002000500):0.0002002100):0.0002001300,((Strain_12:0.0000025549,(Strain_32:0.0002000600,Strain_39:0.0002000600):0.0000010000):0.0000010000,(Strain_34:0.0000025549,(Strain_54:0.0002000500,Strain_55:0.0002000500):0.0000010000):0.0002001900):0.0002001100):0.0000010000,((((Strain_3:0.0000025549,(Strain_15:0.0000025549,(Strain_35:0.0000025549,(Strain_49:0.0002000500,Strain_50:0.0002000500):0.0000010000):0.0002002700):0.0002001800):0.0000010000,((Strain_17:0.0000025549,Strain_41:0.0002000500):0.0000010000,Strain_43:0.0002000500):0.0002001800):0.0002001300,(Strain_2:0.0000025549,(((Strain_13:0.0000025549,(Strain_31:0.0002000500,Strain_40:0.0002000500):0.0000010000):0.0000010000,(Strain_26:0.0000025549,(Strain_53:0.0000010000,Outgroup:0.0000010000):0.0001996400):0.0002001900):0.0002002000,(Strain_24:0.0000025549,Strain_36:0.0002001200):0.0002002000):0.0000010000):0.0002001200):0.0000010000,((Strain_5:0.0000025549,(((Strain_22:0.0000025549,(Strain_46:0.0002000500,Strain_38:0.0002000500):0.0000010000):0.0000010000,Strain_42:0.0002000500):0.0002001700,Strain_20:0.0002000500):0.0000010000):0.0000010000,(Strain_25:0.0000025549,Strain_47:0.0002001200):0.0002001700):0.0002001000):0.0000010000):0.0000010000):0.0000010000):0.0000010000,(Strain_11:0.0002000500,Strain_18:0.0002000500):0.0000010000):0.0000010000,(Strain_14:0.0000025549,Strain_33:0.0002000800):0.0002001300);
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 10 16:50:42 2020
+Total CPU time used: 0.03125 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0598888 seconds (0h:0m:0s)
+

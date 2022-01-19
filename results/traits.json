@@ -1,0 +1,297 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "6.4.3"
+  },
+  "models": {},
+  "nodes": {
+    "NODE_0000000": {
+      "country": "panama"
+    },
+    "NODE_0000001": {
+      "country": "panama"
+    },
+    "NODE_0000005": {
+      "country": "panama"
+    },
+    "NODE_0000006": {
+      "country": "panama"
+    },
+    "NODE_0000007": {
+      "country": "panama"
+    },
+    "NODE_0000009": {
+      "country": "panama"
+    },
+    "NODE_0000010": {
+      "country": "panama"
+    },
+    "NODE_0000012": {
+      "country": "panama"
+    },
+    "NODE_0000013": {
+      "country": "panama"
+    },
+    "NODE_0000014": {
+      "country": "panama"
+    },
+    "NODE_0000015": {
+      "country": "panama"
+    },
+    "NODE_0000017": {
+      "country": "panama"
+    },
+    "NODE_0000018": {
+      "country": "panama"
+    },
+    "NODE_0000019": {
+      "country": "panama"
+    },
+    "NODE_0000020": {
+      "country": "panama"
+    },
+    "NODE_0000023": {
+      "country": "panama"
+    },
+    "NODE_0000024": {
+      "country": "panama"
+    },
+    "NODE_0000025": {
+      "country": "panama"
+    },
+    "NODE_0000026": {
+      "country": "panama"
+    },
+    "NODE_0000027": {
+      "country": "panama"
+    },
+    "NODE_0000029": {
+      "country": "panama"
+    },
+    "NODE_0000030": {
+      "country": "panama"
+    },
+    "NODE_0000032": {
+      "country": "panama"
+    },
+    "NODE_0000033": {
+      "country": "panama"
+    },
+    "NODE_0000034": {
+      "country": "panama"
+    },
+    "NODE_0000036": {
+      "country": "panama"
+    },
+    "NODE_0000037": {
+      "country": "panama"
+    },
+    "NODE_0000040": {
+      "country": "panama"
+    },
+    "NODE_0000041": {
+      "country": "panama"
+    },
+    "NODE_0000042": {
+      "country": "panama"
+    },
+    "NODE_0000044": {
+      "country": "panama"
+    },
+    "NODE_0000045": {
+      "country": "panama"
+    },
+    "NODE_0000046": {
+      "country": "panama"
+    },
+    "NODE_0000047": {
+      "country": "panama"
+    },
+    "NODE_0000048": {
+      "country": "panama"
+    },
+    "NODE_0000049": {
+      "country": "panama"
+    },
+    "NODE_0000050": {
+      "country": "panama"
+    },
+    "NODE_0000051": {
+      "country": "panama"
+    },
+    "NODE_0000053": {
+      "country": "panama"
+    },
+    "NODE_0000055": {
+      "country": "panama"
+    },
+    "Strain_0": {
+      "country": "panama"
+    },
+    "Strain_1": {
+      "country": "panama"
+    },
+    "Strain_10": {
+      "country": "panama"
+    },
+    "Strain_11": {
+      "country": "panama"
+    },
+    "Strain_12": {
+      "country": "panama"
+    },
+    "Strain_13": {
+      "country": "panama"
+    },
+    "Strain_14": {
+      "country": "panama"
+    },
+    "Strain_15": {
+      "country": "panama"
+    },
+    "Strain_16": {
+      "country": "panama"
+    },
+    "Strain_17": {
+      "country": "panama"
+    },
+    "Strain_18": {
+      "country": "panama"
+    },
+    "Strain_19": {
+      "country": "panama"
+    },
+    "Strain_2": {
+      "country": "panama"
+    },
+    "Strain_20": {
+      "country": "panama"
+    },
+    "Strain_21": {
+      "country": "panama"
+    },
+    "Strain_22": {
+      "country": "panama"
+    },
+    "Strain_23": {
+      "country": "panama"
+    },
+    "Strain_24": {
+      "country": "panama"
+    },
+    "Strain_25": {
+      "country": "panama"
+    },
+    "Strain_26": {
+      "country": "panama"
+    },
+    "Strain_27": {
+      "country": "panama"
+    },
+    "Strain_28": {
+      "country": "panama"
+    },
+    "Strain_29": {
+      "country": "panama"
+    },
+    "Strain_3": {
+      "country": "panama"
+    },
+    "Strain_30": {
+      "country": "panama"
+    },
+    "Strain_31": {
+      "country": "panama"
+    },
+    "Strain_32": {
+      "country": "panama"
+    },
+    "Strain_33": {
+      "country": "panama"
+    },
+    "Strain_34": {
+      "country": "panama"
+    },
+    "Strain_35": {
+      "country": "panama"
+    },
+    "Strain_36": {
+      "country": "panama"
+    },
+    "Strain_37": {
+      "country": "panama"
+    },
+    "Strain_38": {
+      "country": "panama"
+    },
+    "Strain_39": {
+      "country": "panama"
+    },
+    "Strain_4": {
+      "country": "panama"
+    },
+    "Strain_40": {
+      "country": "panama"
+    },
+    "Strain_41": {
+      "country": "panama"
+    },
+    "Strain_42": {
+      "country": "panama"
+    },
+    "Strain_43": {
+      "country": "panama"
+    },
+    "Strain_44": {
+      "country": "panama"
+    },
+    "Strain_45": {
+      "country": "panama"
+    },
+    "Strain_46": {
+      "country": "panama"
+    },
+    "Strain_47": {
+      "country": "panama"
+    },
+    "Strain_48": {
+      "country": "panama"
+    },
+    "Strain_49": {
+      "country": "panama"
+    },
+    "Strain_5": {
+      "country": "panama"
+    },
+    "Strain_50": {
+      "country": "panama"
+    },
+    "Strain_51": {
+      "country": "panama"
+    },
+    "Strain_52": {
+      "country": "panama"
+    },
+    "Strain_53": {
+      "country": "panama"
+    },
+    "Strain_54": {
+      "country": "panama"
+    },
+    "Strain_55": {
+      "country": "panama"
+    },
+    "Strain_6": {
+      "country": "panama"
+    },
+    "Strain_7": {
+      "country": "panama"
+    },
+    "Strain_8": {
+      "country": "panama"
+    },
+    "Strain_9": {
+      "country": "panama"
+    }
+  }
+}

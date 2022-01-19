@@ -1,0 +1,1057 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      }
+    ],
+    "filters": [],
+    "panels": [
+      "tree"
+    ],
+    "updated": "2020-04-10"
+  },
+  "tree": {
+    "branch_attrs": {},
+    "children": [
+      {
+        "branch_attrs": {},
+        "children": [
+          {
+            "branch_attrs": {},
+            "name": "Strain_1",
+            "node_attrs": {
+              "div": 0.00020002138103190716,
+              "num_date": {
+                "value": 2020.0969945355191
+              }
+            }
+          },
+          {
+            "branch_attrs": {},
+            "name": "Strain_10",
+            "node_attrs": {
+              "div": 0.00040004085218829676,
+              "num_date": {
+                "value": 2020.1243169398906
+              }
+            }
+          },
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "name": "Strain_7",
+                "node_attrs": {
+                  "div": 0.00040006326883906606,
+                  "num_date": {
+                    "value": 2020.1161202185792
+                  }
+                }
+              },
+              {
+                "branch_attrs": {},
+                "name": "Strain_21",
+                "node_attrs": {
+                  "div": 0.0006000858965766294,
+                  "num_date": {
+                    "value": 2020.1543715846994
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000017",
+            "node_attrs": {
+              "div": 0.000400063268839066,
+              "num_date": {
+                "value": 2020.116120218916
+              }
+            }
+          },
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "name": "Strain_6",
+                "node_attrs": {
+                  "div": 0.00040004205267641393,
+                  "num_date": {
+                    "value": 2020.113387978142
+                  }
+                }
+              },
+              {
+                "branch_attrs": {},
+                "name": "Strain_27",
+                "node_attrs": {
+                  "div": 0.0006000780256580495,
+                  "num_date": {
+                    "value": 2020.1707650273224
+                  }
+                }
+              },
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "name": "Strain_29",
+                    "node_attrs": {
+                      "div": 0.0006000603177584697,
+                      "num_date": {
+                        "value": 2020.1762295081967
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "name": "Strain_45",
+                    "node_attrs": {
+                      "div": 0.0008000989527986889,
+                      "num_date": {
+                        "value": 2020.2199453551912
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000020",
+                "node_attrs": {
+                  "div": 0.0006000603177584697,
+                  "num_date": {
+                    "value": 2020.1762295085334
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000018",
+            "node_attrs": {
+              "div": 0.0004000420526764139,
+              "num_date": {
+                "value": 2020.1133879784788
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000014",
+        "node_attrs": {
+          "div": 0.00020002138103190713,
+          "num_date": {
+            "value": 2020.0969945358559
+          }
+        }
+      },
+      {
+        "branch_attrs": {},
+        "children": [
+          {
+            "branch_attrs": {},
+            "name": "Strain_0",
+            "node_attrs": {
+              "div": 6.943053410511556e-20,
+              "num_date": {
+                "value": 2019.9219178082192
+              }
+            }
+          },
+          {
+            "branch_attrs": {},
+            "children": [
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "name": "Strain_3",
+                    "node_attrs": {
+                      "div": 0.0002000224177431002,
+                      "num_date": {
+                        "value": 2020.1051912568305
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "Strain_41",
+                        "node_attrs": {
+                          "div": 0.000600069024306201,
+                          "num_date": {
+                            "value": 2020.2090163934427
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_17",
+                            "node_attrs": {
+                              "div": 0.00040004621481829524,
+                              "num_date": {
+                                "value": 2020.1434426229507
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_43",
+                            "node_attrs": {
+                              "div": 0.0006000699779329595,
+                              "num_date": {
+                                "value": 2020.214480874317
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000009",
+                        "node_attrs": {
+                          "div": 0.0004000462148182952,
+                          "num_date": {
+                            "value": 2020.1434426232875
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000041",
+                    "node_attrs": {
+                      "div": 0.00040004621481829514,
+                      "num_date": {
+                        "value": 2020.140749148745
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "name": "Strain_15",
+                        "node_attrs": {
+                          "div": 0.0004000460234558553,
+                          "num_date": {
+                            "value": 2020.1379781420765
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_35",
+                            "node_attrs": {
+                              "div": 0.000600088488310094,
+                              "num_date": {
+                                "value": 2020.1926229508197
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_49",
+                            "node_attrs": {
+                              "div": 0.0008001135202376048,
+                              "num_date": {
+                                "value": 2020.23087431694
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_50",
+                            "node_attrs": {
+                              "div": 0.0008001134752956825,
+                              "num_date": {
+                                "value": 2020.233606557377
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000045",
+                        "node_attrs": {
+                          "div": 0.000600088488310094,
+                          "num_date": {
+                            "value": 2020.1923120047522
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000044",
+                    "node_attrs": {
+                      "div": 0.00040004602345585524,
+                      "num_date": {
+                        "value": 2020.1379781424132
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000040",
+                "node_attrs": {
+                  "div": 0.00020002241774310018,
+                  "num_date": {
+                    "value": 2020.1051912571672
+                  }
+                }
+              },
+              {
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_2",
+                            "node_attrs": {
+                              "div": 0.00020002033078384823,
+                              "num_date": {
+                                "value": 2020.1024590163934
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "Strain_24",
+                                "node_attrs": {
+                                  "div": 0.00040004039936333624,
+                                  "num_date": {
+                                    "value": 2020.1625683060108
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "name": "Strain_36",
+                                "node_attrs": {
+                                  "div": 0.0006000607301471843,
+                                  "num_date": {
+                                    "value": 2020.1953551912568
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000049",
+                            "node_attrs": {
+                              "div": 0.0004000403993633362,
+                              "num_date": {
+                                "value": 2020.1625683063476
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000019",
+                        "node_attrs": {
+                          "div": 0.0002000203307838482,
+                          "num_date": {
+                            "value": 2020.10245901673
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_13",
+                            "node_attrs": {
+                              "div": 0.0004000402956291762,
+                              "num_date": {
+                                "value": 2020.1325136612022
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_31",
+                            "node_attrs": {
+                              "div": 0.0006000598665018156,
+                              "num_date": {
+                                "value": 2020.181693989071
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_40",
+                            "node_attrs": {
+                              "div": 0.0006000609466374736,
+                              "num_date": {
+                                "value": 2020.2062841530055
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "Strain_26",
+                                "node_attrs": {
+                                  "div": 0.0006000609466374736,
+                                  "num_date": {
+                                    "value": 2020.1680327868853
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "name": "Strain_53",
+                                "node_attrs": {
+                                  "div": 0.0008000973796102277,
+                                  "num_date": {
+                                    "value": 2020.2418032786886
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000053",
+                            "node_attrs": {
+                              "div": 0.0006000609466374736,
+                              "num_date": {
+                                "value": 2020.168032787222
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000050",
+                        "node_attrs": {
+                          "div": 0.00040004029562917614,
+                          "num_date": {
+                            "value": 2020.132513661539
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000047",
+                    "node_attrs": {
+                      "div": 0.00020002033078384817,
+                      "num_date": {
+                        "value": 2020.0997655421877
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_4",
+                            "node_attrs": {
+                              "div": 0.00020002241774310026,
+                              "num_date": {
+                                "value": 2020.1079234972678
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "name": "Strain_19",
+                            "node_attrs": {
+                              "div": 0.0004000450454806637,
+                              "num_date": {
+                                "value": 2020.1489071038252
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "Strain_16",
+                                "node_attrs": {
+                                  "div": 0.0004000471150488073,
+                                  "num_date": {
+                                    "value": 2020.1407103825136
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "Strain_28",
+                                    "node_attrs": {
+                                      "div": 0.0006000730456575966,
+                                      "num_date": {
+                                        "value": 2020.1734972677596
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "Strain_48",
+                                    "node_attrs": {
+                                      "div": 0.000800099013973204,
+                                      "num_date": {
+                                        "value": 2020.2281420765028
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000013",
+                                "node_attrs": {
+                                  "div": 0.0006000730456575966,
+                                  "num_date": {
+                                    "value": 2020.1734738644786
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000012",
+                            "node_attrs": {
+                              "div": 0.00040004711504880723,
+                              "num_date": {
+                                "value": 2020.1407103828503
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000010",
+                        "node_attrs": {
+                          "div": 0.00020002241774310023,
+                          "num_date": {
+                            "value": 2020.1079234976046
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "name": "Strain_20",
+                                "node_attrs": {
+                                  "div": 0.0004000382357503353,
+                                  "num_date": {
+                                    "value": 2020.1516393442623
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "Strain_5",
+                                    "node_attrs": {
+                                      "div": 0.00020001995806014273,
+                                      "num_date": {
+                                        "value": 2020.110655737705
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_25",
+                                        "node_attrs": {
+                                          "div": 0.0004000415235146199,
+                                          "num_date": {
+                                            "value": 2020.1653005464482
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_47",
+                                        "node_attrs": {
+                                          "div": 0.0006000641060342869,
+                                          "num_date": {
+                                            "value": 2020.2254098360656
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000033",
+                                    "node_attrs": {
+                                      "div": 0.00040004152351461985,
+                                      "num_date": {
+                                        "value": 2020.165300546785
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000034",
+                                "node_attrs": {
+                                  "div": 0.0002000199580601427,
+                                  "num_date": {
+                                    "value": 2020.1106557380417
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "Strain_42",
+                                    "node_attrs": {
+                                      "div": 0.0006000738807407107,
+                                      "num_date": {
+                                        "value": 2020.2117486338798
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "Strain_38",
+                                    "node_attrs": {
+                                      "div": 0.0006000729238502159,
+                                      "num_date": {
+                                        "value": 2020.200819672131
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_46",
+                                        "node_attrs": {
+                                          "div": 0.000600091198821639,
+                                          "num_date": {
+                                            "value": 2020.2226775956285
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_22",
+                                        "node_attrs": {
+                                          "div": 0.0004000571366250339,
+                                          "num_date": {
+                                            "value": 2020.1571038251366
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000027",
+                                    "node_attrs": {
+                                      "div": 0.00040005713662503387,
+                                      "num_date": {
+                                        "value": 2020.1552090708667
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000036",
+                                "node_attrs": {
+                                  "div": 0.0004000571366250338,
+                                  "num_date": {
+                                    "value": 2020.1492535113023
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000032",
+                            "node_attrs": {
+                              "div": 0.00020001995806014268,
+                              "num_date": {
+                                "value": 2020.1079622634993
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "name": "Strain_8",
+                                    "node_attrs": {
+                                      "div": 0.00020002241774310034,
+                                      "num_date": {
+                                        "value": 2020.1188524590164
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_37",
+                                        "node_attrs": {
+                                          "div": 0.0006000672978626333,
+                                          "num_date": {
+                                            "value": 2020.198087431694
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_23",
+                                        "node_attrs": {
+                                          "div": 0.00040004504548066375,
+                                          "num_date": {
+                                            "value": 2020.1598360655737
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_44",
+                                        "node_attrs": {
+                                          "div": 0.0006000681657638754,
+                                          "num_date": {
+                                            "value": 2020.217213114754
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000024",
+                                    "node_attrs": {
+                                      "div": 0.00040004504548066375,
+                                      "num_date": {
+                                        "value": 2020.1531839892984
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000023",
+                                "node_attrs": {
+                                  "div": 0.00020002241774310031,
+                                  "num_date": {
+                                    "value": 2020.118852459353
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "name": "Strain_9",
+                                        "node_attrs": {
+                                          "div": 0.00020003792748394118,
+                                          "num_date": {
+                                            "value": 2020.1215846994535
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "Strain_51",
+                                            "node_attrs": {
+                                              "div": 0.0006000846130849686,
+                                              "num_date": {
+                                                "value": 2020.2363387978141
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "Strain_30",
+                                            "node_attrs": {
+                                              "div": 0.0004000605258536192,
+                                              "num_date": {
+                                                "value": 2020.1789617486338
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "Strain_52",
+                                            "node_attrs": {
+                                              "div": 0.0006001009035374639,
+                                              "num_date": {
+                                                "value": 2020.2390710382513
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000006",
+                                        "node_attrs": {
+                                          "div": 0.00040006052585361915,
+                                          "num_date": {
+                                            "value": 2020.1789617489706
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000005",
+                                    "node_attrs": {
+                                      "div": 0.00020003792748394115,
+                                      "num_date": {
+                                        "value": 2020.1215846997902
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "Strain_18",
+                                            "node_attrs": {
+                                              "div": 0.00020002095041284985,
+                                              "num_date": {
+                                                "value": 2020.146174863388
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "Strain_14",
+                                                "node_attrs": {
+                                                  "div": 0.00020003769652436753,
+                                                  "num_date": {
+                                                    "value": 2020.1352459016393
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "Strain_33",
+                                                "node_attrs": {
+                                                  "div": 0.0004000580280878074,
+                                                  "num_date": {
+                                                    "value": 2020.1871584699454
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000001",
+                                            "node_attrs": {
+                                              "div": 0.0002000376965243675,
+                                              "num_date": {
+                                                "value": 2020.135245901976
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000048",
+                                        "node_attrs": {
+                                          "div": 3.1243740347302006e-19,
+                                          "num_date": {
+                                            "value": 2020.1057563976908
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "branch_attrs": {},
+                                            "name": "Strain_11",
+                                            "node_attrs": {
+                                              "div": 0.00020002241774310042,
+                                              "num_date": {
+                                                "value": 2020.127049180328
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "Strain_12",
+                                                "node_attrs": {
+                                                  "div": 0.00020002389080050174,
+                                                  "num_date": {
+                                                    "value": 2020.129781420765
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "Strain_32",
+                                                "node_attrs": {
+                                                  "div": 0.0004000488250454022,
+                                                  "num_date": {
+                                                    "value": 2020.1844262295083
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "name": "Strain_39",
+                                                "node_attrs": {
+                                                  "div": 0.00040004797803185114,
+                                                  "num_date": {
+                                                    "value": 2020.2035519125684
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "Strain_34",
+                                                    "node_attrs": {
+                                                      "div": 0.00040006457542209495,
+                                                      "num_date": {
+                                                        "value": 2020.1898907103825
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "Strain_54",
+                                                    "node_attrs": {
+                                                      "div": 0.0006000888878724604,
+                                                      "num_date": {
+                                                        "value": 2020.2445355191257
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {},
+                                                    "name": "Strain_55",
+                                                    "node_attrs": {
+                                                      "div": 0.000600089995955438,
+                                                      "num_date": {
+                                                        "value": 2020.2472677595629
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000029",
+                                                "node_attrs": {
+                                                  "div": 0.0004000645754220949,
+                                                  "num_date": {
+                                                    "value": 2020.1847699260434
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000026",
+                                            "node_attrs": {
+                                              "div": 0.00020002389080050171,
+                                              "num_date": {
+                                                "value": 2020.1247388597717
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000051",
+                                        "node_attrs": {
+                                          "div": 3.1243740347302006e-19,
+                                          "num_date": {
+                                            "value": 2020.1057563976908
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000046",
+                                    "node_attrs": {
+                                      "div": 2.7772213642046225e-19,
+                                      "num_date": {
+                                        "value": 2020.1057563976908
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000042",
+                                "node_attrs": {
+                                  "div": 2.4300686936790445e-19,
+                                  "num_date": {
+                                    "value": 2020.1057563976908
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000037",
+                            "node_attrs": {
+                              "div": 2.082916023153467e-19,
+                              "num_date": {
+                                "value": 2020.1054947405255
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000030",
+                        "node_attrs": {
+                          "div": 1.735763352627889e-19,
+                          "num_date": {
+                            "value": 2020.101187913299
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000025",
+                    "node_attrs": {
+                      "div": 1.3886106821023113e-19,
+                      "num_date": {
+                        "value": 2020.101187913299
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "div": 1.0414580115767335e-19,
+                  "num_date": {
+                    "value": 2020.0909987677815
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000007",
+            "node_attrs": {
+              "div": 6.943053410511556e-20,
+              "num_date": {
+                "value": 2020.0909987677815
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000055",
+        "node_attrs": {
+          "div": 3.471526705255778e-20,
+          "num_date": {
+            "value": 2019.921917808556
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2019.919224333677
+      }
+    }
+  },
+  "version": "v2"
+}

@@ -1,0 +1,111 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 16 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-DU41U8E (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -ninit 2 -n 2 -me 0.05 -nt 1 -s seq-delim.fasta -m GTR
+Seed:    446379 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr  4 16:17:27 2020
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file seq-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 40 sequences with 500 columns, 39 distinct patterns
+8 parsimony-informative, 29 singleton sites, 463 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  Strain_0     0.00%    passed     63.38%
+   2  Strain_1     0.00%    passed     82.06%
+   3  Strain_18    0.00%    passed     82.90%
+   4  Strain_19    0.00%    passed     82.90%
+   5  Strain_29    0.00%    passed     82.90%
+   6  Strain_35    0.00%    passed     46.56%
+   7  Strain_2     0.00%    passed     82.06%
+   8  Strain_4     0.00%    passed     46.56%
+   9  Strain_9     0.00%    passed     47.11%
+  10  Strain_31    0.00%    passed     58.12%
+  11  Strain_17    0.00%    passed     47.11%
+  12  Strain_25    0.00%    passed     57.56%
+  13  Strain_30    0.00%    passed     47.11%
+  14  Strain_38    0.00%    passed     47.11%
+  15  Strain_10    0.00%    passed     95.11%
+  16  Strain_15    0.00%    passed     46.56%
+  17  Strain_23    0.00%    passed     82.90%
+  18  Strain_24    0.00%    passed     46.56%
+  19  Strain_32    0.00%    passed     95.11%
+  20  Strain_3     0.00%    passed     76.83%
+  21  Strain_6     0.00%    passed     33.13%
+  22  Strain_13    0.00%    passed     33.54%
+  23  Strain_14    0.00%    passed     45.16%
+  24  Strain_26    0.00%    failed      3.57%
+  25  Strain_8     0.00%    passed     33.13%
+  26  Strain_11    0.00%    passed     77.67%
+  27  Strain_36    0.00%    passed     33.54%
+  28  Strain_20    0.00%    passed     77.67%
+  29  Strain_22    0.00%    passed     33.13%
+  30  Strain_33    0.00%    passed     33.13%
+  31  Strain_39    0.00%    passed     77.67%
+  32  Strain_5     0.00%    passed     64.25%
+  33  Strain_12    0.00%    passed     39.91%
+  34  Strain_21    0.00%    passed     82.90%
+  35  Strain_28    0.00%    passed     77.67%
+  36  Strain_34    0.00%    passed     82.90%
+  37  Strain_37    0.00%    passed     77.67%
+  38  Strain_7     0.00%    passed     82.06%
+  39  Strain_16    0.00%    passed     76.83%
+  40  Strain_27    0.00%    passed     82.06%
+****  TOTAL        0.00%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -381.890
+2. Current log-likelihood: -353.390
+Optimal log-likelihood: -353.035
+Rate parameters:  A-C: 0.63621  A-G: 1.00429  A-T: 1.92227  C-G: 0.00010  C-T: 0.00010  G-T: 1.00000
+Base frequencies:  A: 0.994  C: 0.003  G: 0.002  T: 0.001
+Parameters optimization took 2 rounds (0.012 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+Computing BIONJ tree...
+0.006 seconds
+Log-likelihood of BIONJ tree: -353.029
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -353.026
+Finish initializing candidate tree set (4)
+Current best tree score: -353.026 / CPU time: 0.019
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -353.026
+Optimal log-likelihood: -353.022
+Rate parameters:  A-C: 0.62445  A-G: 0.98111  A-T: 1.94414  C-G: 0.00010  C-T: 0.00010  G-T: 1.00000
+Base frequencies:  A: 0.994  C: 0.003  G: 0.002  T: 0.001
+Parameters optimization took 1 rounds (0.002 sec)
+BEST SCORE FOUND : -353.022
+Total tree length: 0.105
+
+Total number of iterations: 2
+CPU time used for tree search: 0.016 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.019 sec (0h:0m:0s)
+Total CPU time used: 0.031 sec (0h:0m:0s)
+Total wall-clock time used: 0.075 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                seq-delim.fasta.iqtree
+  Maximum-likelihood tree:       seq-delim.fasta.treefile
+  Likelihood distances:          seq-delim.fasta.mldist
+  Screen log file:               seq-delim.fasta.log
+
+Date and Time: Sat Apr  4 16:17:27 2020

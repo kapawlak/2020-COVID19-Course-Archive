@@ -1,0 +1,286 @@
+%% ****** Start of file apstemplate.tex ****** 
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.1r of REVTeX, August 2010
+%%
+%%
+%%   Copyright (c) 2001, 2009, 2010 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+\documentclass[aps,prx,groupedaddress,notitlepage]{revtex4-1} % Preprint
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-1}
+%\documentclass[aps,prl,reprint,groupedaddress]{revtex4-1} % Ready to submit
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+%\bibliographystyle{apsrev4-1}
+
+
+\usepackage{hyperref}
+\usepackage[font=footnotesize,width=.9\linewidth,justification=centerlast]{caption}
+\usepackage{mathconfig}
+
+\linespread{1.3}
+
+\newcommand{\eff}{{\+{eff}}}
+\newcommand{\ev}{\varepsilon}
+\newcommand{\bb}{\mathbf}
+\newcommand{\tr}{{\!\+{tr}}}
+\newcommand{\trb}{\bar\tr}
+\newcommand{\zz}{\tilde{\?Z}}
+\begin{document}
+	
+	% Use the \preprint command to place your local institutional report
+	% number in the upper righthand corner of the title page in preprint mode.
+	% Multiple \preprint commands are allowed.
+	% Use the 'preprintnumbers' class option to override journal defaults
+	% to display numbers if necessary
+	%\preprint{}
+	
+	%Title of paper
+	\title{Field Theory for Evolution and Ecology}
+	
+	% repeat the \author .. \affiliation  etc. as needed
+	% \email, \thanks, \homepage, \altaffiliation all apply to the current
+	% author. Explanatory text should go in the []'s, actual e-mail
+	% address or url should go in the {}'s for \email and \homepage.
+	% Please use the appropriate macro foreach each type of information
+	
+	% \affiliation command applies to all authors since the last
+	% \affiliation command. The \affiliation command should follow the
+	% other information
+	% \affiliation can be followed by \email, \homepage, \thanks as well.
+	\author{Kelly Ann Pawlak}
+	%\email[]{Your e-mail address}
+	%\homepage[]{Your web page}
+	%\thanks{}
+	%\altaffiliation{}
+	\affiliation{University of California, Santa Barbara}
+	
+	%Collaboration name if desired (requires use of superscriptaddress
+	%option in \documentclass). \noaffiliation is required (may also be
+	%used with the \author command).
+	%\collaboration can be followed by \email, \homepage, \thanks as well.
+	%\collaboration{}
+	%\noaffiliation
+	
+	\date{\today}
+	
+	\begin{abstract}
+		A very un-self-contained note on field theoretic models of microbial communities. Semi-requisites are G.P.'s informal notes \cite{Gunnar}, Tauber's excellent book \cite{tauber2014critical} or similar.
+	\end{abstract}
+	
+	% insert suggested PACS numbers in braces on next line
+	\pacs{}
+	% insert suggested keywords - APS authors don't need to do this
+	%\keywords{}
+	
+	%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+	\maketitle
+	\tableofcontents
+	\newpage
+	% body of paper here - Use proper section commands
+	% References should be done using the \cite, \ref, and \label commands
+
+
+\section{A First Application: Trivial Colonial Growth}
+
+We start with the simplest possible calculations on the simplest system of a homogeneous colonial population of bacteria. In this model, we will only look at single bacteria processes -- death and division -- and consider them entirely spontaneous. This results in a non-interacting theory, thus there is no need to consider the spatial distribution of bacteria in a sample. We begin by assuming constant extinction (death) rate $\e$, and constant branching (division) rate $\sigma$. The processes are assumed to be Poisson. A brief review on setting up the field theory is found in the Appendix \ref{sec:hamrev}. The Hamiltonian should take the form
+		\begin{align**}
+		H= -b^\dag  (\e+\sigma) b+\sigma b^\dag b^\dag b +\e b 
+		\end{align**}
+Conversion of this problem from a reaction diffusion process to a field theory gives the action
+	\begin{align**}\label{acttriv}
+		\?S = \int dt  \; \bar b (t) (\d_t +\e-\sigma) b (t)-\sigma\bar  b(t)\bar b(t)b(t).
+	\end{align**}
+We have applied the Doi convention and extended temporal integration to $(-\infty, \infty)$.
+
+
+\subsection{Population Growth}
+ Assume we begin with a bacterial population of size $N$. The expectation value of the population at time $t=t_f$ as written in the second quantized form is converted to the correlation function calculation
+	\begin{align**}
+		\bar N(t_f)&= \langle \tr| b(t_f) e^{\t \hat H} \l[ b\dg(t_0) \r]^N|0\rangle	\\
+		&\overset{fields}{=}\langle b (t_f)(\bar b(0)+1)^{N}\rangle = \?Z^{-1}\int \?D(\bar b, b) \;   b (t_f) \, e^{-\? S} \, (\bar b(0)+1)^{N}
+	\end{align**}
+This represents a straight forward integral in the fields as complex variables. Note that in the absence of the third order term of \ref{acttriv}, the action is simply a Gaussian distribution. We call this the ``free'' or ``bare'' theory. A common first approach to these calculations is to pull this term out and expand the exponential in the parameter $\sigma$, and calculate terms peturbatively with respect to the Gaussian weight. This looks like  
+	\begin{align**}
+	 	\bar N(t_f) = \l \langle b(t_f)\;e^{\sigma \int  dt  \bar  b(t)\bar b(t)b(t)}\;(\bar b(0)+1)^{N} \r\rangle_0
+	\end{align**}
+where the $0$ subscript indicates w.r.t. the bare weight. Time-ordering of the correlator arguments is always implied. The ``bare'' propagator (the Green function of the differential equation for the quadratic part of the theory) is given by
+
+	\begin{align**}
+	\Delta_0(t-t') &\equiv \langle b(t)\bar b(t')\rangle_0\\
+	&= \int d\w \frac{e^{-i\w (t-t')} }{-i\w +\e-\sigma} = \theta(t-t') e^{-(t-t')(\e-\sigma)}
+	\end{align**}
+And the bare action is just a quadrature $\sim  \bar b(t) \l[ \Delta_0(t-t') \r]^{-1} b(t')$.
+%%%%%%%%%
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=2.5 in]{varianceplot}
+	\caption{The variance over time. It diverges for exponential growth, whereas for extinction-dominated dynamics it increases until the half-life time $t_{1/2} = \log(2)/(\e-\sigma)$, where the reduced population size limits the rate of branching processes causing rapid convergence to the mean as the population diminishes } \label{vplot}
+\end{figure}
+%%%%%%%%
+
+Let us expand the exponential series in powers of $\sigma$. Since the expectation values of the form $\langle b^n\bar b^m\rangle$ vanish for $m\ne n$ with respect to the quadratic theory  (for the same reason odd moments of $x$ are zero in a standardized gaussian distribution) we only need to expand the branching to first order. However, notice that at first order, by Wicks theorem, we always have an equal time contribution $\langle b(t)\bar b(t)\rangle_0= 	\Delta_0(0) =0$.  Similarly, carrying out the binomial expansion, the only contributing terms are $1+N \bar b(0)$. Therefore, we obtain the exact result:
+	\begin{align**}
+	\bar N(t_f) &= \langle N b(t)b(0)\rangle = N e^{-t_f(\e_i-\sigma_i)}
+	\end{align**}
+which is just the exponential growth or decay of the population as expected. 
+
+A similar calculation for the variance may be done using the following expression for the second moment:
+	\begin{align**}
+	\+{var} N(t_f)&=\langle \tr| b(t_f)b\dg(t_f)b(t_f) e^{\t \hat H} \l[ b\dg(t_0) \r]^N|0\rangle	 - 	\bar N(t_f)^2\\
+	&\overset{fields}{=}	\langle (b(t_f)+b^2(t_f))(\bar b(0)+1)^{N}\rangle  -\bar N^2(t_f)\\
+	&=\frac{ 2 N e^{-\bar t(\e-\sigma)}}{1+\coth\l(\frac{\bar t}{2}(\e-\sigma)\r)}\l(1+\frac{2 \sigma}{\e-\sigma}\r)
+\end{align**}
+which is roughly plotted in Figure \ref{vplot}.
+
+This result is important because it tells us something superficial that is actually universally true: the importance of late-time fluctuations is inevitably tied to the phase of the systems. Dying systems will have quickly dying fluctuations, and exponentially growing systems the converse. In the sweet spot near that of a critical system retaining microbial density indefinitely, the importance of fluctuations is tentatively undecided, and will crucially depend on the details of the theory.  
+
+\section{Resource Dependent Growth in Media}
+We now move on to discuss systems with locality. We imagine a microbial population that must consume resource to proliferate, and prepare a sample with fixed total resource. Upon encountering a resource, a microbe will consume and proliferate with rate $\sigma$. We therefore now enlarge the Fock space by including microbe abundance states at every location as well as resource abundance states. This processes is represented by $(b+r \RA 2b)_{\sigma}$. We allow both to diffuse with separate diffusion constants.
+
+ The Hamiltonian has the form:
+ 
+ 	\begin{align**}
+ 	H=& \int d^dx  \; \l\{b^\dag  ( d_b\nabla^2 -\e) b +r^\dag d_r \nabla^2 r  \r\}\\
+ 	   &\;- \int d^dx\;  \l\{\sigma(b^\dag -r\dg )b^\dag b r -\e b  \r\}
+ 	\end{align**}
+   
+ and the Doi-shifted action 
+ 
+ 	\begin{align**} \label{resac}
+ 	\?S &= \int dt d^dx \l\{\bar b ( \d_t - d_b\nabla^2 +\e) b +\bar r ( \d_t - d_r\nabla^2) r   \r\}\\
+ 		&\;- \sigma\int d^dx\;  \l\{\bar b\bar b b r -\bar b b\bar r r+\bar bb r -b\bar r r \r\}
+ 	\end{align**}
+\subsection{Classical Equations of Motion}
+First let us obtain the classical equations of motion by minimizing the saddle points with respect to the fields, like any ordinary Lagrangian theory. Using the variational principle, and using that barred quantities are always set to unity in the Doi prescription, we obtain:
+	\begin{align**}
+	\frac{\delta \?S}{\delta \bar r(x,t)}\Big|_{\bar r=\bar b=1} &= ( \d_t - d_r\nabla^2) r + 2\sigma  b r =0\\
+	\frac{\delta \?S}{\delta \bar b(x,t)}\Big|_{\bar r=\bar b=1} &= ( \d_t - d_b\nabla^2 +\e) b - 2\sigma  b r =0
+	\end{align**}
+Thus we have the zeroth-order approximation to the dynamics given by the coupled differential equations 
+	\begin{align**}
+	( \d_t - d_r\nabla^2) r &=- 2\sigma  b r\\
+	( \d_t - d_b\nabla^2)  b&= 2\sigma  b r  - \e b
+	\end{align**}
+These are the homogeneous mean-field equations of the densities augmented by diffusion terms. A typical result for total microbe density over time is plotted in Figure \ref{dieplot}
+
+%%%%%%%%%
+\begin{figure}[t]
+	\centering
+	\includegraphics[height=2 in]{typdying} \hspace{1cm}\includegraphics[height=2 in]{seppedat}
+	\caption{Left: Typical mean field total microbe population over time starting from homogeneous mixture. Initial growth period followed by ultimate death after resources become too dilute. Notice characteristic similarity to Seppe's data on right. Both systems are in the dying phase (because Seppe didn't have a large enough microbial density). If densities were higher in his experiment, the late time behavior of the system would be dramatically changed-- as we will eventually show. His variances aren't existentially vanishing, and this is a clue that his system is more interesting than the current model (read: producers induce fluctuations, fluctuations induce second order phase transitions!). } \label{dieplot}
+\end{figure}
+%%%%%%%%
+\subsection{Fluctuations}
+We now need to account for fluctuations around the mean field solution. We should first note that this model has no phase transition--  all solutions ultimately die, and are governed by exponential decay in the parameter $\e$. This implies that fluctuations have vanishing contribution at late times as one approaches the absorbing state, similar to the vanishing of the variance in found in Figure \ref{vplot}. This partially accounts for why Seppe's experiment had n\"aive reproducibility -- it was ultimately in the dying phase because microbial densities were too low and was therefore governed by exponential decay that suppressed the fluctuations at late times, allowing for a rate equation characterization. In the current model, if the resources were constantly fed into the system, or could if they could reproduce, fluctuations would play a role in long time dynamics (as we will see).
+
+To solidify this statement, we turn to dimensional analysis in the form of scaling arguments. Chapter 4 of Subir's book\cite{sachdev2011quantum} discusses this procedure in more detail than I will present here. Returning to the action in Equation \ref{resac}, we will make a scale transformation by taking $x\RA x/a$. In order to keep the quadratic part of the theory invariant under these transformations (ignoring $\e$ for the moment), we see that densities must transform as $\bar b b\RA a^{d} \bar b b$, similarly for the resources, and the time coordinate transforms as $t\RA a^{-2} t$. It follows that $\bar b b \bar r r \RA a^{2d} \bar b b \bar r r$. In order for the action to be dimensionless, the branching rate must scale as $\s \RA a^{2-d} \sigma$. As we perform a (tree-level) rescaling by taking $a \RA a' \gg 1$, so that the resulting theory is over macroscopic scales and long times, when $d>2$ the branching term is irrelevant. At $d=d_c=2$ the branching term is invariant under scale transformations and we call this a ``marginal'' term, and one has to do a perturbutive analysis to see if it is ultimately relevant or not. Below $d_c$, branching fundamentally governs the dynamics and a full renormalization procedure must be applied.
+
+Now, the death rate scales as $\e \RA a^2 \e$, and in the absence of a viable term to combat its effect (such as feeding in a resource), it is always strongly relevant. The implication is that exponential decay determines the asymptotic behavior of the system, and fluctuations only alter the \textit{amplitudes} over short and maybe intermediate times.  We could reverse the renormalization procedure and take $a \RA a' \ll 1$, and we would find that short-time dynamics are entirely dependent on processes governed by branching. In practice, in $d>2$ we would have to regulate the theory at short distances by including the finite size of microbes and their capture radii to make sense of this data. Great for me because I'm lazy: it's not *that* important if we are only focused on late-time dynamics. Tauber gives a thorough and correct treatment of this situation in his review \cite{tauber2005applications}, including a discussion of how small scale structure enters into large scale observables. I stand by my statement that it's probably not that important for us because we don't really know what's going on microscopically anyway.
+
+If we really wanted to understand the fluctuations in this theory, our next step would be to introduce fluctuation fields by writing $b = \langle b\rangle +\phi$ and $r = \langle r\rangle + \eta$ everywhere in the action, where $\langle \cdot\rangle$ represents the mean field solution. This is fundamentally a change of variables, and we would analyze the action in terms of the new complex fields representing fluctuations about the mean.  
+
+
+\section{Resource Dependent Growth: Branching Resources and the Stochastic Lotka-Voltera Model}
+In this section we'll encounter the first case of nontrivial behavior that is in no way captured by any simple ``rate-equation''.
+
+
+
+\bibliography{file}
+\clearpage
+
+
+
+
+\appendix
+\section{Brief overview of Master Equations and Hamiltonians}\label{sec:hamrev}
+I suggest reading the suggested notes\cite{Gunnar} and part II of Tauber's book \cite{tauber2014critical}, to learn how to write down the Master equation, convert it to a second-quantized form and write down the action. Briefly, the point of this is to devise an operator form of time evolution for the state of the system. Recall that ``Master Equations'' are usually written in the form:
+	\begin{align**}
+	\d_t \'P = \hat A\cdot \'P
+	\end{align**}
+where $\'P$ is some vector that represents the state of the system. In the ``Second Quantized" formulation, this vector will be in the occupation basis, meaning that the state of our system will be characterized only by the instantaneous abundances of bacteria, resources, byproducts etc. A given state of the physical system is specified by a vector that specifies the numbers of each element of the system: $(\# \+{species}\, 1, \cdots,\# \+{species} \,N,\# \+{resource} \,1, \cdots,\# \+{resource}\, M   )$. This will written compactly as $|n_{b_1},\cdots ,n_{b_N},n_{R_1},\cdots ,n_{R_M}\rangle$. 
+
+The operator $\hat A$ that defines the instantaneous evolution of the state will be an operator that acts on this space by changing the abundances according to rules which are easily determined phenomenologically. We will call this our ``Hamiltonain'' $H$ and it will be composed of processes represented by abundance increasing and decreasing operators. 
+
+\subsection{Hamiltonian Derivation}
+To make this clear with an example, let us construct the master equation for a model with only spontaneous bacterial death. Consider probability of the state of $n$ bacteria at time $t$ given by $P(n,t)$. To understand how the probability changes in time we have to determine the possible states of the system at a previous instant in time, and their probabilities $P(n',t-\delta t)$, that could have transitioned to the current state. This is simple: either we had a state with $n$ bacteria and nothing happened or we had a state with $n+1$ bacteria and one died. The rate of the latter happening will be proportional to the death rate $\delta_t\e$ times the number of bacteria in the sample $n+1$. The probability that nothing happens in total is proportional the probability that death doesn't occur $n$ times: $(1-\delta_t\e n)$. Written down:
+	\begin{align**}
+	P(n,t) = \delta_t \e (n+1) P(n+1,t-\delta_t) +(1-\delta_t \e n)  P(n,t-\delta_t) 
+		\end{align**}
+Otherwise written as an equation who's $\delta_t\RA 0$ limit gives the desired ODE
+	\begin{align**}
+	\frac{P(n,t)-P(n,t-\delta t)}{\delta t} \approx \d_t P(n) = \e (n+1) P(n+1,t) - \e n P(n,t)
+	\end{align**}
+To make the move to the Hamiltonian picture we need to represent the possible states in an occupation basis. Let $|n\rangle$ represent a state with $n$ bacteria. We also define operators that act on this state $b,b^\dag$ that have the property $b|n\rangle = n|n-1\rangle$ and $b^\dag|n\rangle |n+1\rangle$. To make the change of basis, we multiply each side by $|n\rangle$ and sum over all values of n. Then one can show that the above relation is equivalent to the expression
+	\begin{align**}
+	\sum_n \d_t P(n,t)|n\rangle = \sum_n\l(\e (n+1) P(n+1,t)|n\rangle - \e n P(n,t)|n\rangle\r)
+	\end{align**}
+Next we use the fact that $b|n+1\rangle = (n+1)|n\rangle$ and $b^\dag b|n\rangle = n|n\rangle$, and shift the sum index for the first term on the RHS
+ 	\begin{align**}
+ 	\sum_n \d_t P(n,t)|n\rangle = \sum_n\l(\e b  - \e b^\dag b\r)P(n,t)|n\rangle
+ 	\end{align**}
+We can then define the probability in the occupation basis as $|\psi(t)\rangle = \sum_n P(n,t)|n\rangle$ which is just a sum transform, similar to a fourier transform. The result is:
+		\begin{align**}
+	 	 \d_t |\psi(t)\rangle = \l(\e b  - \e b^\dag b\r)|\psi(t)\rangle = H|\psi(t)\rangle
+	 	\end{align**}
+And we've just derived the ``Hamiltonian'' . One can simply integrate this equation to obtain the probability state at any point in time
+	\begin{align**}
+	|\psi(t)\rangle = e^{(t-t_0)H}|\psi(t_0)\rangle
+	\end{align**} 
+
+
+The ``Hamiltonian" that governs infinitesimal time evolution one should obtain for this model has the form
+	 
+	\begin{align**}
+	H= b^\dag  (\e+\sigma) b-\sigma b^\dag b^\dag b -\e b 
+	\end{align**}
+where $b^\dag, b$ are creation and annihilation operators of individual bacteria with $\l[ b,b^\dag\r]=1$. A particular state in this model is given by the ket $|\psi\rangle = \sum_n C_n |n\rangle$, and it will, in general, be a linear combination of bacteria population number states $|n\rangle=(b^\dag)^n|0\rangle$. The evolution of any state is given by the exponentiation of $H$:
+	\begin{align**}
+	|\psi(t)\rangle = e^{tH}|\psi(0)\rangle
+	\end{align**}
+
+\subsection{Hamiltonian to Field Theory}
+The process of converting the Hamiltonian into a Field theory action is technical, and one should consult one of many possible references on this process for more information. Despite this, the result is actually quite simple. Rather than computing expectation values using the inner product rules, we now compute them by functional integration against a probability measure in the form of a partition function
+	\begin{align**}
+	 \?Z &= \int \?D(b^*(t),b(t)) e^{-\?S} \Psi(b^*(0))
+	\end{align**}
+where $\Psi$ programs the initial conditions. Then expectation values are computed as
+	\begin{align**}
+	\langle \hat O (b\dg, b; t_f)\rangle &= \frac{1}{\?Z} \int \?D(b^*(t),b(t)) O(b,b^*; t_f) e^{-\?S} \phi(b(0),b^*(0)),\\
+	\end{align**}
+Where the division by $\?Z$ provides the appropriate normalization as usual. The notation $\hat O (b\dg, b; t_f) \RA O(b,b^*; t_f) $ indicates that we have replaced
+the operators $(b\dg, b)$ with complex fields $(b^*,b)$ everywhere. 
+
+The action will always have the form
+	\begin{align**}
+		\?S = \int_{t_0}^{t_f} dt  \;\l\{  b ^*(t) \d_t b (t)+H\l[ b^*,b \r]\r\} - b(t_f).
+	\end{align**}
+The additional field at the final time is an artifact of how probabilities are measured in a classical theory-- it is not present in quantum theories due to the Born Rule. It is perfectly fine to work with the theory this way, however it is easier to do perturbation theory with such a term absent. We can get rid of it by using the ``Doi Shift'' convention by shifting our physical fields by unity -- i.e. $b^* = \bar b +1$ -- to get rid of the linear terms. This results in
+
+	\begin{align**}
+		\?S = \int_{t_0}^{t_f} dt  \;\l\{  \bar b(t) \d_t b (t)+H\l[\bar b +1,b \r]\r\}.
+	\end{align**}
+It is also possible to extend the temporal integration from $(t_0,t_f)$ to $(-\infty,\infty)$ after this transformation, making the theory amenable to Fourier Transform
+
+\end{document}
+%
+% ****** End of file apstemplate.tex ******
+

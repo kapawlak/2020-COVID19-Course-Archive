@@ -1,0 +1,129 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 16 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-DU41U8E (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -ninit 2 -n 2 -me 0.05 -nt 1 -s results/aligned-delim.fasta -m GTR
+Seed:    693344 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 10 16:50:42 2020
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 57 sequences with 5000 columns, 59 distinct patterns
+26 parsimony-informative, 29 singleton sites, 4945 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  Strain_0     0.00%    passed    100.00%
+   2  Strain_9     0.00%    passed    100.00%
+   3  Strain_14    0.00%    passed    100.00%
+   4  Strain_33    0.00%    passed     99.98%
+   5  Strain_11    0.00%    passed    100.00%
+   6  Strain_18    0.00%    passed     99.99%
+   7  Strain_30    0.00%    passed    100.00%
+   8  Strain_52    0.00%    passed    100.00%
+   9  Strain_51    0.00%    passed    100.00%
+  10  Strain_1     0.00%    passed    100.00%
+  11  Strain_7     0.00%    passed    100.00%
+  12  Strain_21    0.00%    passed    100.00%
+  13  Strain_10    0.00%    passed    100.00%
+  14  Strain_6     0.00%    passed     99.99%
+  15  Strain_27    0.00%    passed     99.98%
+  16  Strain_29    0.00%    passed    100.00%
+  17  Strain_45    0.00%    passed    100.00%
+  18  Strain_4     0.00%    passed    100.00%
+  19  Strain_16    0.00%    passed     99.99%
+  20  Strain_19    0.00%    passed    100.00%
+  21  Strain_28    0.00%    passed     99.99%
+  22  Strain_48    0.00%    passed     99.99%
+  23  Strain_8     0.00%    passed    100.00%
+  24  Strain_23    0.00%    passed    100.00%
+  25  Strain_37    0.00%    passed     99.99%
+  26  Strain_44    0.00%    passed    100.00%
+  27  Strain_12    0.00%    passed    100.00%
+  28  Strain_34    0.00%    passed     99.99%
+  29  Strain_32    0.00%    passed     99.99%
+  30  Strain_39    0.00%    passed    100.00%
+  31  Strain_54    0.00%    passed    100.00%
+  32  Strain_55    0.00%    passed     99.99%
+  33  Strain_3     0.00%    passed    100.00%
+  34  Strain_17    0.00%    passed    100.00%
+  35  Strain_41    0.00%    passed     99.99%
+  36  Strain_43    0.00%    passed    100.00%
+  37  Strain_15    0.00%    passed    100.00%
+  38  Strain_35    0.00%    passed     99.99%
+  39  Strain_49    0.00%    passed     99.98%
+  40  Strain_50    0.00%    passed     99.98%
+  41  Strain_5     0.00%    passed     99.99%
+  42  Strain_22    0.00%    passed     99.99%
+  43  Strain_46    0.00%    passed     99.97%
+  44  Strain_38    0.00%    passed     99.97%
+  45  Strain_42    0.00%    passed    100.00%
+  46  Strain_20    0.00%    passed     99.98%
+  47  Strain_25    0.00%    passed    100.00%
+  48  Strain_47    0.00%    passed     99.98%
+  49  Strain_2     0.00%    passed    100.00%
+  50  Strain_13    0.00%    passed     99.99%
+  51  Strain_31    0.00%    passed     99.97%
+  52  Strain_40    0.00%    passed     99.98%
+  53  Strain_26    0.00%    passed     99.98%
+  54  Strain_53    0.00%    passed     99.97%
+  55  Outgroup     0.00%    passed     99.97%
+  56  Strain_24    0.00%    passed    100.00%
+  57  Strain_36    0.00%    passed    100.00%
+****  TOTAL        0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Outgroup is identical to Strain_53 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -7571.147
+2. Current log-likelihood: -7513.311
+Optimal log-likelihood: -7513.309
+Rate parameters:  A-C: 0.91407  A-G: 0.43848  A-T: 0.98973  C-G: 1.12152  C-T: 0.53117  G-T: 1.00000
+Base frequencies:  A: 0.252  C: 0.249  G: 0.246  T: 0.253
+Parameters optimization took 2 rounds (0.006 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+Computing BIONJ tree...
+0.003 seconds
+Log-likelihood of BIONJ tree: -7513.076
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -7513.076
+Finish initializing candidate tree set (4)
+Current best tree score: -7513.076 / CPU time: 0.015
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -7513.076
+Optimal log-likelihood: -7513.069
+Rate parameters:  A-C: 0.90772  A-G: 0.46055  A-T: 0.98448  C-G: 1.11654  C-T: 0.53993  G-T: 1.00000
+Base frequencies:  A: 0.252  C: 0.249  G: 0.246  T: 0.253
+Parameters optimization took 1 rounds (0.002 sec)
+BEST SCORE FOUND : -7513.069
+Total tree length: 0.011
+
+Total number of iterations: 2
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.016 sec (0h:0m:0s)
+Total CPU time used: 0.031 sec (0h:0m:0s)
+Total wall-clock time used: 0.057 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned-delim.fasta.treefile
+  Likelihood distances:          results/aligned-delim.fasta.mldist
+  Screen log file:               results/aligned-delim.fasta.log
+
+Date and Time: Fri Apr 10 16:50:42 2020
